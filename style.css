@@ -1,0 +1,472 @@
+
+/*--------------------------------------------------------------
+# side navbar
+--------------------------------------------------------------*/
+.sidenav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+/*--------------------------------------------------------------
+# left navbar
+--------------------------------------------------------------*/
+.leftnav{
+    display: flex;
+    flex-direction: column;
+    padding:1rem;
+    min-width: fit-content;
+    max-width: 12rem;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 500;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border: solid;
+
+    
+
+}
+#services ,#login,#signin,#notification,#status,#about,#contact,#help,#lisencing,#feedback{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+
+a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(12, 134, 190);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+
+/*--------------------------------------------------------------
+# HEADING
+--------------------------------------------------------------*/
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/*--------------------------------------------------------------
+# search
+--------------------------------------------------------------*/
+.search{
+    display: flex;
+    flex-direction: row;
+    margin-left:0.5rem ;
+
+}
+.search-box{
+    display: flex;
+    flex-direction: row;
+    margin-left: 18rem;
+    height: 3rem;
+    justify-content: flex-end;
+
+}
+.search h6{
+margin-left: 18rem;
+}
+.search-txt{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    text-align: center;
+    margin-right: auto;
+}
+.search button{
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    border-radius: 0.5rem;
+    border-top-left-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+    cursor: pointer;
+}
+.search input{
+    border-radius: 0.5rem;
+    border-top-right-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+    background-color: transparent;
+}
+/*--------------------------------------------------------------
+# middle
+--------------------------------------------------------------*/
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.home, .date, .avail, .pay{
+margin: 1rem;
+display: flex;
+flex-direction: column;
+text-align: center;
+font-size: larger;
+font-weight: 500;
+font-style: bold;
+}
+.images button{
+    border-radius: 1.4rem;
+}
+.middle img{
+    height: 15rem;
+    width: 15rem;
+}
+/*--------------------------------------------------------------
+# right navbar
+--------------------------------------------------------------*/
+
+.rightnav{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    min-width: fit-content;
+    max-width: 10rem;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 500;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border: solid;
+
+
+}
+.pictures{
+    height: 3rem;
+    width: 15rem;
+    text-align: center;
+    font-size: larger;
+font-weight: 500;
+font-style: bold;
+margin-left: 1rem;
+}
+.pictures img{
+    border-radius: 3rem;
+    margin-top: 2rem;
+}
+.mrow1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.availdate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.availdate img {
+    height: 3rem;
+    width: 3rem;
+}
+.address{
+
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.mrow2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 22rem;
+}
+.logo-house {
+    height: 7rem;
+    width: 5rem;
+    margin-bottom: 1rem;
+}
+.logo-house img{
+    height: 120px;
+    width: 150px;
+}
+.accomodation{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 22rem;
+    margin-right: auto;
+    padding-right: 4rem;
+}
+.mrow3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.owner{
+    display: flex;
+    flex-direction: row;
+}
+.owner img{
+    height: 10rem;
+    width: 10rem;
+}
+.mrow4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.payment{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem
+
+}
+.payment img{
+    height: 5rem;
+    width: 5rem;
+}
+.ownerinfo {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.bond{
+    margin-left: 5rem;
+}
+/*---------------------------- login---------------------------------------------*/
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;   
+    margin-top: 3rem; 
+    border-radius: 2rem;
+    border: solid;
+} 
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 25vw;
+}
+
+.content form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.content form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.content form input{
+    width: 100%;
+    background-color: transparent;
+}
+
+
+
+
+    #name, #tel, #email, #password,#repassword,#register, #login-btn{
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    } 
+
+    .button {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
+    .button button{
+        border-radius: 2rem;
+    }
+   
+
+    /* ------------------------------chat-------------------------------------------- */
+    .container{max-width:1170px; margin:auto;}
+img{ max-width:100%;}
+.inbox_people {
+  background: #f8f8f8 none repeat scroll 0 0;
+  float: left;
+  overflow: hidden;
+  width: 40%; border-right:1px solid #c4c4c4;
+}
+.inbox_msg {
+  border: 1px solid #c4c4c4;
+  clear: both;
+  overflow: hidden;
+}
+.top_spac{ margin: 20px 0 0;}
+
+
+.recent_heading {float: left; width:40%;}
+.srch_bar {
+  display: inline-block;
+  text-align: right;
+  width: 60%;
+}
+.headind_srch{ padding:10px 29px 10px 20px; overflow:hidden; border-bottom:1px solid #c4c4c4;}
+
+.recent_heading h4 {
+  color: #05728f;
+  font-size: 21px;
+  margin: auto;
+}
+.srch_bar input{ border:1px solid #cdcdcd; border-width:0 0 1px 0; width:80%; padding:2px 0 4px 6px; background:none;}
+.srch_bar .input-group-addon button {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  padding: 0;
+  color: #707070;
+  font-size: 18px;
+}
+.srch_bar .input-group-addon { margin: 0 0 0 -27px;}
+
+.chat_ib h5{ font-size:15px; color:#464646; margin:0 0 8px 0;}
+.chat_ib h5 span{ font-size:13px; float:right;}
+.chat_ib p{ font-size:14px; color:#989898; margin:auto}
+.chat_img {
+  float: left;
+  width: 11%;
+  max-height: 2rem;
+}
+.chat_ib {
+  float: left;
+  padding: 0 0 0 15px;
+  width: 88%;
+}
+
+.chat_people{ overflow:hidden; clear:both;}
+.chat_list {
+  border-bottom: 1px solid #c4c4c4;
+  margin: 0;
+  padding: 18px 16px 10px;
+}
+.inbox_chat { height: 550px; overflow-y: scroll;}
+
+.active_chat{ background:#ebebeb;}
+
+.incoming_msg_img {
+  display: inline-block;
+  width: 6%;
+}
+.received_msg {
+  display: inline-block;
+  padding: 0 0 0 10px;
+  vertical-align: top;
+  width: 92%;
+ }
+ .received_withd_msg p {
+  background: #ebebeb none repeat scroll 0 0;
+  border-radius: 3px;
+  color: #646464;
+  font-size: 14px;
+  margin: 0;
+  padding: 5px 10px 5px 12px;
+  width: 100%;
+}
+.time_date {
+  color: #747474;
+  display: block;
+  font-size: 12px;
+  margin: 8px 0 0;
+}
+.received_withd_msg { width: 57%;}
+.mesgs {
+  float: left;
+  padding: 30px 15px 0 25px;
+  width: 60%;
+}
+
+ .sent_msg p {
+  background: #05728f none repeat scroll 0 0;
+  border-radius: 3px;
+  font-size: 14px;
+  margin: 0; color:#fff;
+  padding: 5px 10px 5px 12px;
+  width:100%;
+}
+.outgoing_msg{ overflow:hidden; margin:26px 0 26px;}
+.sent_msg {
+  float: right;
+  width: 46%;
+}
+.input_msg_write input {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  color: #4c4c4c;
+  font-size: 15px;
+  min-height: 48px;
+  width: 100%;
+}
+
+.type_msg {border-top: 1px solid #c4c4c4;position: relative;}
+.msg_send_btn {
+  background: #05728f none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 17px;
+  height: 33px;
+  position: absolute;
+  right: 0;
+  top: 11px;
+  width: 33px;
+}
+.messaging { padding: 0 0 50px 0;}
+.msg_history {
+  height: 516px;
+  overflow-y: auto;
+}
+.messaging img{
+    height: 2rem;
+}
+
+    /* ------------------------------chat-------------------------------------------- */
+
+/*------------------------------------ feedback form------------------------------------ */
+.feedbackfrom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/*------------------------------------ feedback form------------------------------------ */

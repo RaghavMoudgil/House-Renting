@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h1>STUDENTS ACCOMODTION</h1>
+    </div>
+    <div class="sidenav">
+        <div class="leftnav">
+            <a id="services" href="..\xyz\services.html">Services <i style="margin-left: 1rem" class="fa fa-cog" aria-hidden="true"></i>
+            </a>
+            <a id="login" href="..\xyz\login.html">Login<i style="margin-left: 1rem" class="fa fa-user-plus" aria-hidden="true"></i>
+            </a>
+            <a id="signin" href="..\xyz\register.html">Sign in <i style="margin-left: 1rem" class="fas fa-sign-in-alt"
+                    aria-hidden="true"></i></a>
+            <a id="notification" href="..\xyz\notification.html">Notification<i style="margin-left: 1rem" class="fa fa-exclamation-triangle"
+                    aria-hidden="true"></i> </a>
+            <a id="status" href="..\xyz\ownerstats.html">Status<i style="margin-left: 1rem" class="fa fa-user" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="middle">
+            <div class="search">
+                <div class="search-txt">
+                    <h5>Welcome!! <br>Customize Search is Here.</h5>
+                </div>
+                <div class="search-box">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </div>
+
+            </div>
+            <div class="images">
+                <div class="row1">
+                    <div class="home"><button><img src="https://pngimg.com/uploads/house/house_PNG29.png"
+                                alt="home"></button> Advertisement</div>
+                    <div class="date"><button><img
+                                src="https://i.pinimg.com/736x/be/c1/69/bec169e6963d7ffe14f10c641af31141.jpg"
+                                alt="date"></button>Choose Date</div>
+
+                </div>
+                <div class="row2">
+                    <div class="avail"><button><img
+                                src="https://w7.pngwing.com/pngs/404/623/png-transparent-il-narratore-la-letteratura-e-oltre-computer-icons-high-availability-business-others-miscellaneous-text-logo.png"
+                                alt="availability"></button>Availability</div>
+                    <div class="pay"><button><img
+                                src="data:image/png;base64,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"
+                                alt="payment"></button>Payment</div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="rightnav" >
+            <a id="about" href="..\xyz\aboutus.html">About Us <i style="margin-left: 1rem" class="fa fa-user-secret"
+                    aria-hidden="true"></i> </a>
+            <a id="contact" href="..\xyz\contact.html">Contact<i style="margin-left: 1rem" class="fa fa-phone" aria-hidden="true"></i>
+            </a>
+            <a id="help" href="..\xyz\help.html">Help <i style="margin-left: 1rem" class="fa fa-info" aria-hidden="true"></i></a>
+            <a id="lisencing" href="..\xyz\liscence.html">Lisencing<i style="margin-left: 1rem" class="fa fa-book" aria-hidden="true"></i>
+            </a>
+            <a id="feedback" href="..\xyz\feedback.html">Feedback<i style="margin-left: 1rem" class="fa fa-comments"
+                    aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

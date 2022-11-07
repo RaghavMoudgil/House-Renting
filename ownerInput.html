@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h1>REVIEW ADVERTISEMENT</h1>
+    </div>
+    <div class="sidenav">
+        <div class="leftnav">
+            <a id="services" href="..\xyz\services.html">Services <i style="margin-left: 1rem" class="fa fa-cog" aria-hidden="true"></i>
+            </a>
+            <a id="login" href="..\xyz\login.html">Login<i style="margin-left: 1rem" class="fa fa-user-plus"
+                    aria-hidden="true"></i>
+            </a>
+            <a id="signin" href="..\xyz\register.html">Sign in <i style="margin-left: 1rem" class="fas fa-sign-in-alt"
+                    aria-hidden="true"></i></a>
+            <a id="notification" href="..\xyz\notification.html">Notification<i style="margin-left: 1rem" class="fa fa-exclamation-triangle"
+                    aria-hidden="true"></i> </a>
+            <a id="status" href="..\xyz\ownerstats.html">Status<i style="margin-left: 1rem" class="fa fa-user" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="middle">
+            <div class="search">
+                <div class="search-txt">
+                    <h5>Welcome!! <br>Customize Search is Here.</h5>
+                </div>
+                <div class="search-box">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </div>
+
+            </div>
+            <div class="mrow1">
+                <div class="pictures">
+                    <div class="logo-house">
+                        <img src="data:image/jpeg;base64,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"
+                            alt="logo-house">
+                    </div>
+
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/suburban-house-royalty-free-image-1584972559.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://images.adsttc.com/media/images/5ecd/d4ac/b357/65c6/7300/009d/large_jpg/02C.jpg?1590547607"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://media.istockphoto.com/photos/beautiful-luxury-home-exterior-at-twilight-picture-id1026205392?k=20&m=1026205392&s=612x612&w=0&h=lYFMV5cOuQQpddmwsE5QLBCyhgWQ1OI46i_dalro9OE="
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        Pictures
+                    </div>
+
+                </div>
+                <div class="availdate">
+                    <img src="https://i.pinimg.com/736x/be/c1/69/bec169e6963d7ffe14f10c641af31141.jpg" alt="date">
+                    <h6>Date of Availability</h6>
+                </div>
+                <div class="address">
+                    <address>
+                        <strong>
+                            <h3>Address</h3>
+                        </strong>
+                        <textarea name="address"  cols="30" rows="5"></textarea>
+                    </address>
+                </div>
+            </div>
+            <div class="mrow2">
+                <h2>Discription of the House</h2>
+                <textarea name="address"  cols="30" rows="5"></textarea>
+
+            </div>
+            <div class="mrow3">
+                <div class="accomodation">
+                    <h2>Accomodation Aminities</h2>
+                    <textarea name="address"  cols="30" rows="5"></textarea>
+
+                </div>
+                <div class="owner">
+                    <img src="https://www.nicepng.com/png/full/128-1280239_this-free-icons-png-design-of-female-user.png"
+                        alt="owner">
+                </div>
+            </div>
+            <div class="mrow4">
+                <div class="payment">
+                    <div class="pay-img"><img src="https://cdn-icons-png.flaticon.com/512/1019/1019607.png"
+                            alt="payment"></div>
+                    <h6>Payment</h6>
+                </div>
+
+                <div class="bond">
+                    <h2>Bond Information</h2>
+                    <textarea name="address"  cols="30" rows="5"></textarea>
+
+                </div>
+                <div class="ownerinfo">
+                    <h2>Owner Information</h2>
+                    <textarea name="address"  cols="30" rows="5"></textarea>
+                </div>
+            </div>
+
+
+            <div class="button" style="margin-top: 1rem;">
+                <div class="submit">
+                    <button type="reset">RESET</button>
+
+                </div>
+                <div class="reset">
+                    <button type="submit">SUBMIT</button>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="rightnav">
+            <a id="about" href="..\xyz\aboutus.html">About Us <i style="margin-left: 1rem" class="fa fa-user-secret"
+                    aria-hidden="true"></i> </a>
+            <a id="contact" href="..\xyz\contact.html">Contact<i style="margin-left: 1rem" class="fa fa-phone" aria-hidden="true"></i>
+            </a>
+            <a id="help" href="..\xyz\help.html">Help <i style="margin-left: 1rem" class="fa fa-info" aria-hidden="true"></i></a>
+            <a id="lisencing" href="..\xyz\liscence.html">Lisencing<i style="margin-left: 1rem" class="fa fa-book" aria-hidden="true"></i>
+            </a>
+            <a id="feedback" href="..\xyz\feedback.html">Feedback<i style="margin-left: 1rem" class="fa fa-comments"
+                    aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
